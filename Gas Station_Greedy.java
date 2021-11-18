@@ -23,7 +23,7 @@ public class Solution {
             }
         }
 
-        if(((totalGasAvailable+gasFoundBefore)-(totalGasUsed + gasRequiredBefore)) > 0 ){
+        if(((totalGasAvailable+gasFoundBefore)-(totalGasUsed + gasRequiredBefore)) >= 0 ){
             return start;
         }
         return -1;
