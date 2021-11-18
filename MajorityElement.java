@@ -13,7 +13,9 @@ public class Solution {
                    maxElem= A.get(i);
                 }
             }
-            hmap.put(A.get(i),1);
+            else {
+                hmap.put(A.get(i),1);
+            }
         }
         return maxElem;
     }
